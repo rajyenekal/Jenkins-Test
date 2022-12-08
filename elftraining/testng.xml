@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="cars Regression">
+  <test thread-count="5" name="carsTest">
+    <classes>
+     		<class name="elftraining.KiaTest"/>
+   		    <class name="elftraining.toyotaTest"/>
+      		 <class name="elftraining.HyundaiTest"/>
+      		  <class name="elftraining.SuzukiTest"/>
+     		   <class name="elftraining.MahindraTest"/>
+     	        <class name="elftraining.SkodaTest"/>
+    </classes>
+  </test> <!-- carsTest -->
+</suite> <!-- Suite -->
