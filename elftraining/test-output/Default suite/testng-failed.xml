@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="elftraining.SkodaTest">
+      <class name="elftraining.HyundaiTest">
         <methods>
-          <include name="Skoda"/>
+          <include name="hyundai"/>
         </methods>
-      </class> <!-- elftraining.SkodaTest -->
+      </class> <!-- elftraining.HyundaiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

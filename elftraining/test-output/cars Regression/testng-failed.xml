@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [cars Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="carsTest(failed)">
+    <classes>
+      <class name="elftraining.SuzukiTest">
+        <methods>
+          <include name="suzuki"/>
+        </methods>
+      </class> <!-- elftraining.SuzukiTest -->
+      <class name="elftraining.MahindraTest">
+        <methods>
+          <include name="mahindra"/>
+        </methods>
+      </class> <!-- elftraining.MahindraTest -->
+      <class name="elftraining.HyundaiTest">
+        <methods>
+          <include name="hyundai"/>
+        </methods>
+      </class> <!-- elftraining.HyundaiTest -->
+      <class name="elftraining.SkodaTest">
+        <methods>
+          <include name="Skoda"/>
+        </methods>
+      </class> <!-- elftraining.SkodaTest -->
+      <class name="elftraining.toyotaTest">
+        <methods>
+          <include name="toyota"/>
+        </methods>
+      </class> <!-- elftraining.toyotaTest -->
+      <class name="elftraining.KiaTest">
+        <methods>
+          <include name="kia"/>
+        </methods>
+      </class> <!-- elftraining.KiaTest -->
+    </classes>
+  </test> <!-- carsTest(failed) -->
+</suite> <!-- Failed suite [cars Regression] -->
